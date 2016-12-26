@@ -1,0 +1,30 @@
+{
+  "name": "rest-sample",
+  "version": "1.0.0",
+  "description": "test RESTful service (GET/POST/DELETE/PUT)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch server.js --watch app --watch config"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "method-override": "^2.3.6",
+    "morgan": "^1.7.0",
+    "sails-mongo": "^0.12.2",
+    "sails-mysql": "^0.11.5",
+    "serve-favicon": "^2.3.0",
+    "waterline": "^0.11.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.2"
+  },
+  "keywords": [
+    "testing-project"
+  ],
+  "author": "Velu",
+  "license": "ISC"
+}
